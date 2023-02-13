@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-SemiBold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MontserratExtra';
+  src: url(./fonts/Montserrat-ExtraLight.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url(./fonts/Lora-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  max-width: 1000px;
+  background-color: rgb(241, 235, 235);
+}
+
+.about__block-parrot {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  border-bottom: 1px solid rgb(137, 137, 137, 0.3);
+  box-shadow: 1px 1px 3px rgb(137, 137, 137);
+  width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-size: 28px;
+  margin: 0;
+  color: rgb(28, 28, 28);
+  letter-spacing: 1.5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.point {
+  font-family: 'Lora';
+  font-size: 16px;
+  color: rgb(28, 28, 28);
+  margin-bottom: 10px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 80px;
+}
+
+.resume__title {
+  margin-bottom: 20px;
+}
+
+.resume__description {
+  margin: 0;
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgb(28, 28, 28);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.education {
+  margin: 20px 0 20px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education__university {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 0;
+  color: rgb(28, 28, 28);
+}
+
+.education__special {
+  margin-top: 15px;
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgb(28, 28, 28);
+}
+
+.hardskill {
+  background-color: rgb(241, 212, 84, 0.1);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.softskill {
+  padding: 20px 20px;
+}
+
+.parrot {
+}
+
+.parrot:hover {
+  transform: scale(1.3);
+  transition: 3s;
+  position: inherit;
+}
+
+.parrot:not(:hover) {
+  transition: 3s;
+}
+
+.hobbies {
+  margin: 50px 0 20px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies__picture {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hobbies__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hobbies__name {
+  font-family: 'Lora';
+  font-size: 18px;
+  color: rgb(28, 28, 28);
+  margin: 0;
+  text-align: center;
+}
+
+.hobbies__image {
+  width: 400px;
+  height: 500px;
+  border-radius: 7%;
+  box-shadow: 5px 2px 5px rgb(137, 137, 137);
+  z-index: 2;
+}
+
+.profile {
+  background: linear-gradient(rgba(243, 243, 90, 0.8), rgba(159, 82, 0, 0.8));
+  height: 100vh;
+  width: 100vh;
+  top: 0;
+  position: sticky;
+  padding-top: 50px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact__image {
+  width: 30px;
+  height: 30px;
+}
+
+.private {
+  display: flex;
+  flex-direction: column;
+}
+
+.private__name {
+  font-family: 'Montserrat';
+  font-size: 36px;
+  margin: 10px 0 15px 0;
+  color: rgb(28, 28, 28);
+}
+
+.private__job {
+  font-family: 'Montserrat';
+  font-size: 28px;
+  margin: 20px 0 30px 0;
+  color: rgb(28, 28, 28);
+}
+
+.private__underline {
+  border-bottom: 1px solid rgba(230, 180, 16, 0.8);
+  box-shadow: 1px 1px 3px rgb(247, 200, 30);
+  width: 400px;
+  margin: 0 auto;
+}
+
+.private__link {
+  width: 150px;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'Lora';
+  font-size: 18px;
+  color: rgb(28, 28, 28);
+  text-align: center;
+  background-color: rgba(230, 180, 16, 0.8);
+  border: 2px solid rgba(188, 158, 62, 0.8);
+}
+
+.private__image {
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    flex-direction: column-reverse;
+  }
+  .profile {
+    position: relative;
+    width: 900px;
+    height: 300px;
+  }
+
+  .private__image {
+    position: absolute;
+    height: 300px;
+    width: 170px;
+    top: 20px;
+  }
+
+  .about {
+    width: fit-content;
+  }
+}
