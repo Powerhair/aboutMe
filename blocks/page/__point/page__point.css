@@ -5,7 +5,7 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .page__point {
     font-size: 10px;
   }

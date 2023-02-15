@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .education {
     margin-left: 20px;
     justify-content: flex-start;

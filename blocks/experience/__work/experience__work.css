@@ -8,7 +8,7 @@
   max-width: 600px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .experience__work {
     max-width: 320px;
     font-size: 12px;

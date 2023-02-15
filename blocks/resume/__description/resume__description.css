@@ -8,7 +8,7 @@
   max-width: 800px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .resume__description {
     max-width: 320px;
     font-size: 10px;

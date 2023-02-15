@@ -6,7 +6,7 @@
   letter-spacing: 1.2px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .education__university {
     font-size: 12px;
   }

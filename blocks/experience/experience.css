@@ -5,7 +5,7 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .experience {
     margin-left: 20px;
   }
