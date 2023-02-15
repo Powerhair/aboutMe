@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 5000px) {
+@media screen and (max-width: 500px) {
   .profile {
     position: static;
     max-width: 500px;
