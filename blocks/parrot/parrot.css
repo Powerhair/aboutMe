@@ -24,9 +24,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .parrot {
-    width: 300px;
+    width: 1000px;
     height: 300px;
   }
 }
