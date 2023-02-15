@@ -24,10 +24,18 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .parrot {
     width: 1000px;
     height: 300px;
     background-color: black;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .parrot {
+    width: 1000px;
+    height: 300px;
+    background-color: red;
   }
 }
