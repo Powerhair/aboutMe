@@ -2,3 +2,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 460px) {
+  .page__skill {
+    max-width: 200px;
+  }
+}

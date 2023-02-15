@@ -13,10 +13,10 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 460px) {
   .about__block-parrot {
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    max-width: 320px;
+    justify-content: space-around;
+    max-width: 450px;
   }
 }
