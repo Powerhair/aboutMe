@@ -6,6 +6,13 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 640px) {
+  .hobbies__image {
+    width: 200px;
+    height: 270px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .hobbies__image {
     width: 100px;
