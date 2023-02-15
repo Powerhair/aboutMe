@@ -6,6 +6,13 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 1000px) {
+  .about__block-parrot {
+    max-width: 1000px;
+    margin-left: -40px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .about__block-parrot {
     flex-direction: row-reverse;

@@ -9,19 +9,20 @@
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 1000px) {
   .profile {
     position: relative;
-    width: 900px;
+    width: 950px;
     height: 300px;
   }
 }
 @media screen and (max-width: 769px) {
   .profile {
     position: relative;
-    width: 768px;
+    max-width: 768px;
     height: 300px;
     flex-direction: column;
   }
@@ -30,7 +31,7 @@
 @media screen and (max-width: 380px) {
   .profile {
     position: static;
-    width: 320px;
+    max-width: 320px;
     height: 600px;
     flex-direction: column;
   }
