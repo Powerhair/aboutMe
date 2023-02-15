@@ -1,0 +1,12 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: -20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    margin: 0;
+  }
+}

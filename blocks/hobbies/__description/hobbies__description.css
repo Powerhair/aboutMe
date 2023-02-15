@@ -1,0 +1,15 @@
+.hobbies__description {
+  font-family: 'OpenSans';
+  font-size: 18px;
+  color: rgb(28, 28, 28);
+  line-height: 1.8;
+  margin: 0;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 380px) {
+  .hobbies__description {
+    max-width: 320px;
+    font-size: 10px;
+  }
+}

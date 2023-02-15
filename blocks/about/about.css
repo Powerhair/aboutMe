@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  max-width: 1000px;
+  background-color: rgb(241, 235, 235);
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about {
+    max-width: 320px;
+  }
+}

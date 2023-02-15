@@ -1,0 +1,13 @@
+.education__university {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 0;
+  color: rgb(28, 28, 28);
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 380px) {
+  .education__university {
+    font-size: 12px;
+  }
+}

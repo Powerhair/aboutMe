@@ -1,0 +1,14 @@
+.education {
+  margin: 20px 0 20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 380px) {
+  .education {
+    margin-left: 20px;
+    justify-content: flex-start;
+  }
+}

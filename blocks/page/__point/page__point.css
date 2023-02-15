@@ -1,0 +1,12 @@
+.page__point {
+  font-family: 'OpenSans';
+  font-size: 16px;
+  color: rgb(28, 28, 28);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 380px) {
+  .page__point {
+    font-size: 10px;
+  }
+}

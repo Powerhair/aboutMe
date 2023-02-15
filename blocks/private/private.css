@@ -1,0 +1,9 @@
+.private {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+@media screen and (max-width: 380px) {
+  .private {
+  }
+}

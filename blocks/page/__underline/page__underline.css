@@ -1,0 +1,12 @@
+.page__underline {
+  border-bottom: 1px solid rgb(137, 137, 137, 0.3);
+  box-shadow: 1px 1px 3px rgb(137, 137, 137);
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 380px) {
+  .page__underline {
+    max-width: 320px;
+  }
+}

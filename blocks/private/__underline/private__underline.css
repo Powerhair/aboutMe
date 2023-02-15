@@ -1,0 +1,12 @@
+.private__underline {
+  border-bottom: 1px solid rgba(230, 180, 16, 0.8);
+  box-shadow: 1px 1px 3px rgb(247, 200, 30);
+  width: 400px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 769px) {
+  .private__underline {
+    display: none;
+  }
+}

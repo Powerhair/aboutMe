@@ -1,0 +1,6 @@
+.education__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+}

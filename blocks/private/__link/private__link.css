@@ -1,0 +1,18 @@
+.private__link {
+  width: 150px;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'OpenSans';
+  font-size: 20px;
+  color: rgb(28, 28, 28);
+  text-align: center;
+  background-color: rgba(230, 180, 16, 0.8);
+  border: 2px solid rgba(188, 158, 62, 0.8);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.private__link:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}

@@ -1,0 +1,16 @@
+.experience__description {
+  font-family: 'OpenSans';
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgb(28, 28, 28);
+  margin-bottom: 5px;
+  text-indent: 30px;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 380px) {
+  .experience__description {
+    font-size: 10px;
+    max-width: 320px;
+  }
+}

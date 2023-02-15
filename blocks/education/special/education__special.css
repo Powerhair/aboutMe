@@ -1,0 +1,13 @@
+.education__special {
+  margin-top: 15px;
+  font-family: 'OpenSans';
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgb(28, 28, 28);
+}
+
+@media screen and (max-width: 380px) {
+  .education__special {
+    font-size: 10px;
+  }
+}

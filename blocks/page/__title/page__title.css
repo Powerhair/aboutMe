@@ -1,0 +1,13 @@
+.page__title {
+  font-family: 'Montserrat';
+  font-size: 28px;
+  margin: 0;
+  color: rgb(28, 28, 28);
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 769px) {
+  .page__title {
+    font-size: 16px;
+  }
+}

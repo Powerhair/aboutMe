@@ -1,300 +1,77 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url(./fonts/Montserrat-SemiBold.ttf) format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
+/* fonts */
 
-@font-face {
-  font-family: 'MontserratExtra';
-  src: url(./fonts/Montserrat-ExtraLight.ttf) format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
+@import url(./fonts.css);
 
-@font-face {
-  font-family: 'Lora';
-  src: url(./fonts/Lora-Regular.ttf) format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
+/* page */
 
-@font-face {
-  font-family: 'OpenSans';
-  src: url(./fonts/OpenSans-Regular.ttf) format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__list/page__list.css);
+@import url(./blocks/page/__point/page__point.css);
+@import url(./blocks/page/__skill/page__skill.css);
+@import url(./blocks/page/__title/page__title.css);
+@import url(./blocks/page/__title/page__skill-title.css);
+@import url(./blocks/page/__underline/page__underline.css);
 
-.page {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-}
+/* about */
 
-.about {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 20px;
-  max-width: 1000px;
-  background-color: rgb(241, 235, 235);
-}
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__block-parrot/about__block-parrot.css);
 
-.about__block-parrot {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 40px;
-}
+/* contact */
 
-.skill {
-  display: flex;
-  flex-direction: column;
-}
+@import url(./blocks/contact/contact.css);
+@import url(./blocks/contact/__image/contact__image.css);
 
-.underline {
-  border-bottom: 1px solid rgb(137, 137, 137, 0.3);
-  box-shadow: 1px 1px 3px rgb(137, 137, 137);
-  width: 800px;
-  margin: 0 auto;
-}
+/* education */
 
-.title {
-  font-family: 'Montserrat';
-  font-size: 28px;
-  margin: 0;
-  color: rgb(28, 28, 28);
-  letter-spacing: 1.5px;
-}
+@import url(./blocks/education/education.css);
+@import url(./blocks/education/__container/education__container.css);
+@import url(./blocks/education/__image/education__image.css);
+@import url(./blocks/education/__university/education__university.css);
+@import url(./blocks/education/special/education__special.css);
 
-.list {
-  list-style-type: '- ';
-}
+/* experience */
 
-.point {
-  font-family: 'OpenSans';
-  font-size: 16px;
-  color: rgb(28, 28, 28);
-  margin-bottom: 10px;
-}
+@import url(./blocks/experience/experience.css);
+@import url(./blocks/experience/__container/experience__container.css);
+@import url(./blocks/experience/__description/experience__description.css);
+@import url(./blocks/experience/__title/experience__title.css);
+@import url(./blocks/experience/__work/experience__work.css);
 
-.resume {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 0 20px 80px;
-}
+/* hardskill */
 
-.resume__title {
-  margin-bottom: 20px;
-}
+@import url(./blocks/hardskill/hardskill.css);
 
-.resume__description {
-  margin: 0;
-  font-family: 'OpenSans';
-  font-size: 18px;
-  line-height: 1.8;
-  color: rgb(28, 28, 28);
-  margin-bottom: 20px;
-  max-width: 800px;
-}
+/* softskill */
 
-.education {
-  margin: 20px 0 20px 80px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: space-between;
-}
+@import url(./blocks/softskill/softskill.css);
 
-.education__image {
-  width: 300px;
-  height: 380px;
-}
+/* hobbies */
 
-.education__container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 0;
-}
+@import url(./blocks/hobbies/hobbies.css);
+@import url(./blocks/hobbies/__container/hobbies__container.css);
+@import url(./blocks/hobbies/__description/hobbies__description.css);
+@import url(./blocks/hobbies/__image/hobbies__image.css);
 
-.education__university {
-  font-family: 'Montserrat';
-  font-size: 20px;
-  margin: 0;
-  color: rgb(28, 28, 28);
-  letter-spacing: 1.2px;
-}
+/* parrot */
 
-.education__special {
-  margin-top: 15px;
-  font-family: 'OpenSans';
-  font-size: 18px;
-  line-height: 1.8;
-  color: rgb(28, 28, 28);
-}
+@import url(./blocks/parrot/parrot.css);
 
-.hardskill {
-  background-color: rgb(241, 212, 84, 0.1);
-  padding: 20px 20px;
-  z-index: 2;
-}
+/* private */
 
-.softskill {
-  padding: 20px 20px;
-  background-color: rgba(190, 246, 169, 0.4);
-}
+@import url(./blocks/private/private.css);
+@import url(./blocks/private/__image/private__image.css);
+@import url(./blocks/private/__job/private__job.css);
+@import url(./blocks/private/__link/private__link.css);
+@import url(./blocks/private/__name/private__name.css);
+@import url(./blocks/private/__underline/private__underline.css);
 
-.skill__title {
-  letter-spacing: 1.2px;
-}
+/* profile */
 
-.parrot {
-}
+@import url(./blocks/profile/profile.css);
 
-.parrot:hover {
-  transform: scale(1.3);
-  transition: 3s;
-  position: inherit;
-}
+/* resume */
 
-.parrot:not(:hover) {
-  transition: 3s;
-}
-
-.hobbies {
-  margin: 50px 0 20px 80px;
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 30px;
-}
-
-.hobbies__container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.hobbies__description {
-  font-family: 'OpenSans';
-  font-size: 18px;
-  color: rgb(28, 28, 28);
-  line-height: 1.8;
-  margin: 0;
-  max-width: 600px;
-}
-
-.hobbies__image {
-  width: 300px;
-  height: 380px;
-  border-radius: 7%;
-  box-shadow: 5px 2px 5px rgb(137, 137, 137);
-  z-index: 2;
-}
-
-.profile {
-  background: linear-gradient(rgba(243, 243, 90, 0.8), rgba(159, 82, 0, 0.8));
-  height: 100vh;
-  width: 100vh;
-  top: 0;
-  position: sticky;
-  padding-top: 50px;
-  padding-left: 40px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.contact__image {
-  width: 30px;
-  height: 30px;
-}
-
-.contact__image:hover {
-  transform: scale(1.2);
-  transition: 0.3s;
-}
-
-.private {
-  display: flex;
-  flex-direction: column;
-}
-
-.private__name {
-  font-family: 'Montserrat';
-  font-size: 36px;
-  margin: 10px 0 15px 0;
-  color: rgb(28, 28, 28);
-}
-
-.private__job {
-  font-family: 'Montserrat';
-  font-size: 28px;
-  margin: 20px 0 30px 0;
-  color: rgb(28, 28, 28);
-}
-
-.private__underline {
-  border-bottom: 1px solid rgba(230, 180, 16, 0.8);
-  box-shadow: 1px 1px 3px rgb(247, 200, 30);
-  width: 400px;
-  margin: 0 auto;
-}
-
-.private__link {
-  width: 150px;
-  text-decoration: none;
-  margin: 0;
-  font-family: 'OpenSans';
-  font-size: 20px;
-  color: rgb(28, 28, 28);
-  text-align: center;
-  background-color: rgba(230, 180, 16, 0.8);
-  border: 2px solid rgba(188, 158, 62, 0.8);
-  border-radius: 5px;
-  padding: 15px;
-}
-
-.private__link:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.private__image {
-  height: 300px;
-  width: 220px;
-  object-fit: cover;
-  margin: 20px 0 30px 0;
-  box-shadow: 5px 2px 5px rgb(137, 137, 137);
-  border-radius: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-  .page {
-    flex-direction: column-reverse;
-  }
-  .profile {
-    position: relative;
-    width: 900px;
-    height: 300px;
-  }
-
-  .private__image {
-    position: absolute;
-    height: 300px;
-    width: 170px;
-    top: 20px;
-  }
-
-  .about {
-    width: fit-content;
-  }
-}
+@import url(./blocks/resume/resume.css);
+@import url(./blocks/resume/__description/resume__description.css);
+@import url(./blocks/resume/__title/resume__title.css);

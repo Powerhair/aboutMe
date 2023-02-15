@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./index.css" />
     <title>Pavel Bondarevskii</title>
   </head>
   <body class="page">
     <section class="about">
       <div class="resume">
-        <h3 class="resume__title title">Обо мне</h3>
+        <h3 class="resume__title page__title">Обо мне</h3>
         <p class="resume__description">
           Меня зовут Павел, мне 29 лет. Имею высшее образование и в настоящее
           время ищу работу Frontend разработчиком. В прошлом я работал в Hyundai
@@ -20,11 +21,11 @@
           в компании, где занимался разработкой автоматизированной обучающей
           системы для ОАО РЖД.
         </p>
-        <span class="underline"></span>
+        <span class="page__underline"></span>
       </div>
       <div class="education">
         <div class="education__container">
-          <h3 class="title education__title">Образование</h3>
+          <h3 class="page__title education__title">Образование</h3>
           <div class="education__place">
             <h5 class="education__university">ДВГУПС</h5>
             <p class="education__special">Высшее. Автоматика и телемеханика</p>
@@ -36,41 +37,110 @@
         </div>
         <img class="education__image" src="./images/white_parrot.png" alt="" />
       </div>
-      <span class="underline"></span>
+      <span class="page__underline"></span>
+      <div class="experience">
+        <h3 class="page__title experience__title">Опыт работы</h3>
+        <div class="experience__container">
+          <h5 class="experience__work">
+            Владивостокская дистанция сигнализации централизации и блокировки
+          </h5>
+          <p class="experience__description">
+            С 2015 года по 2020 год я работал на в дистанции электромехаником
+            СЦБ. Моя работа заключалась в обеспечении безаварийного и
+            бесперебойного движения поездов. Как электромеханик СЦБ, я отвечал
+            за поддержание в исправности технического оборудования и систем
+            сигнализации, централизации и блокировки на станции Владивосток.
+          </p>
+          <p class="experience__description">
+            В рамках моей работы я проводил регулярные технические обслуживания
+            и ремонты, проверял и настраивал системы управления движением
+            поездов. Также, в случае неисправностей я оперативно реагировал на
+            аварийные ситуации и принимали меры по устранению неполадок.
+          </p>
+          <p class="experience__description">
+            Опыт работы во Владивостокской дистанции СЦБ позволил мне развить
+            профессиональные навыки в области обслуживания и ремонта
+            технического оборудования и систем сигнализации, централизации и
+            блокировки на железнодорожных станциях. Моя ответственность и
+            внимательность помогли обеспечить безопасность движения поездов на
+            станции Владивосток.
+          </p>
+        </div>
+        <div class="experience__container">
+          <h5 class="experience__work">
+            Центр автоматизации технического обслуживания
+          </h5>
+          <p class="experience__description">
+            Я работал в ЦАТО в должности Инженер-Технолог с 2020 - 2021 год,
+            основными обязанностями были разработка автоматизированной обучающей
+            системы для ОАО РЖД, участие в тестировании, сбор информации,
+            разработка технических заданий и написание инструкций.
+          </p>
+          <p class="experience__description">
+            Опыт работы в Центре автоматизации технического обслуживания при
+            университете ПГУПС позволил мне развить профессиональные навыки в
+            области разработки и тестирования программного обеспечения, а также
+            в написании технической документации.
+          </p>
+        </div>
+        <div class="experience__container">
+          <h5 class="experience__work">Hyundai Wia Rus</h5>
+          <p class="experience__description">
+            Я работалл в должности Мастер отдела технологического обслуживания с
+            2021 по 2022 год. Основными обязанностями были обеспечение
+            безостановочной работы линии сборки двигателей, руководство бригадой
+            электромехаников, обслуживание, настройка и программирование
+            промышленных роботов ABB и контролеров Mitsubishi.
+          </p>
+          <p class="experience__description">
+            Особый акцент в моей работе был сделан на программирование роботов
+            ABB, что требовало глубоких знаний в этой области. Также моя работа
+            включала написание инструкций по ремонту и обслуживанию различных
+            элементов линии сборки, что помогало сохранять эффективность
+            производственного процесса.Я успешно руководил бригадой
+            электромехаников, проводил собеседования, оценивал
+            производительность и обучал сотрудников, что помогало поддерживать
+            высокий уровень работы отдела технологического обслуживания.
+          </p>
+          <p class="experience__description">
+            пыт работы в компании Hyundai Wia Rus позволил мне расширить
+            профессиональные навыки в области программирования роботов и
+            настройки промышленного оборудования, а также развить лидерские
+            качества и навыки работы в команде.
+          </p>
+        </div>
+        <span class="page__underline"></span>
+      </div>
       <div class="about__block-parrot">
         <img class="parrot" src="./images/parrot.png" alt="" />
-        <div class="skill">
+        <div class="page__skill">
           <div class="hardskill">
-            <h3 class="title skill__title">HardSkills</h3>
-            <ul class="list hardskill__list">
-              <li class="point">HTML</li>
-              <li class="point">CSS</li>
-              <li class="point">JS</li>
-              <li class="point">React</li>
-              <li class="point">Git</li>
-              <li class="point">WebPack</li>
+            <h3 class="page__title page__skill-title">HardSkills</h3>
+            <ul class="page__list hardskill__list">
+              <li class="page__point">HTML</li>
+              <li class="page__point">CSS</li>
+              <li class="page__point">JS</li>
+              <li class="page__point">React</li>
+              <li class="page__point">Git</li>
+              <li class="page__point">WebPack</li>
             </ul>
           </div>
           <div class="softskill">
-            <h3 class="title skill__title">SoftSkills</h3>
-            <ul class="list softskill__list">
-              <li class="point">Умение работать самостоятельно</li>
-              <li class="point">Отличные коммуникативные способности</li>
-              <li class="point">
+            <h3 class="page__title page__skill-title">SoftSkills</h3>
+            <ul class="page__list softskill__list">
+              <li class="page__point">Умение работать самостоятельно</li>
+              <li class="page__point">Отличные коммуникативные способности</li>
+              <li class="page__point">
                 Способность быстро учиться и осваивать новые технологии
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <span class="underline"></span>
+      <span class="page__underline"></span>
       <div class="hobbies">
         <div class="hobbies__container">
-          <img class="hobbies__image" src="./images/travel.png" alt="" />
-          <img class="hobbies__image" src="./images/sport.png" alt="" />
-        </div>
-        <div class="hobbies__container">
-          <h3 class="title hobbies__title">Мои увлечения</h3>
+          <h3 class="page__title hobbies__title">Мои увлечения</h3>
           <p class="hobbies__description">
             Мои увлечения включают в себя путешествия, активный отдых и
             автомобили. Я обожаю путешествовать и открывать новые места. Мне
@@ -83,18 +153,34 @@
           <p class="hobbies__description">
             Кроме того, я увлечен автомобилями. Однажды я проехал на машине от
             Владивостока до Санкт-Петербурга, и это было незабываемым опытом. Я
-            люблю исследовать новые места на автомобиле, путешествовать на
-            большие расстояния и наслаждаться прекрасными пейзажами.
+            люблю исследовать новые места, путешествовать на большие расстояния
+            и наслаждаться прекрасными пейзажами.
           </p>
           <p class="hobbies__description">
             Мои увлечения помогают мне расслабляться и наслаждаться жизнью. Я
-            считаю, что каждый должен найти свой способ расслабления и
-            наслаждения жизнью, и у меня есть счастье заниматься тем, что люблю.
+            считаю, что каждый должен найти свой способ расслабления, и у меня
+            есть счастье заниматься тем, что люблю.
           </p>
+        </div>
+        <div class="hobbies__container">
+          <img class="hobbies__image" src="./images/travel.png" alt="" />
+          <img class="hobbies__image" src="./images/sport.png" alt="" />
         </div>
       </div>
     </section>
     <section class="profile">
+      <div class="private">
+        <h1 class="private__name">Павел Бондаревский</h1>
+        <span class="private__underline"></span>
+        <p class="private__job">Frontend рaзрaботчик</p>
+        <img class="private__image" src="./images/profile.png" alt="" />
+        <a
+          href="https://github.com/Powerhair"
+          target="_blank"
+          class="private__link"
+          >Мои проекты</a
+        >
+      </div>
       <div class="contact">
         <a href="https://t.me/stupidhair" target="_blank" class="contact__link"
           ><img class="contact__image" src="./icons/telegram.svg" alt=""
@@ -111,19 +197,6 @@
           class="contact__link"
           ><img class="contact__image" src="./icons/whats.svg" alt=""
         /></a>
-      </div>
-      <div class="private">
-        <h1 class="private__name">Павел Бондаревский</h1>
-        <span class="private__underline"></span>
-        <p class="private__job">Frontend рaзрaботчик</p>
-
-        <img class="private__image" src="./images/profile.png" alt="" />
-        <a
-          href="https://github.com/Powerhair"
-          target="_blank"
-          class="private__link"
-          >Мои проекты</a
-        >
       </div>
     </section>
   </body>

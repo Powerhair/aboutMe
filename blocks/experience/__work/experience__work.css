@@ -1,0 +1,16 @@
+.experience__work {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 0;
+  color: rgb(28, 28, 28);
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 380px) {
+  .experience__work {
+    max-width: 320px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,11 @@
+.hobbies__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 380px) {
+  .hobbies__container:last-child {
+    flex-direction: row;
+  }
+}

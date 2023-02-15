@@ -1,0 +1,35 @@
+.private__image {
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+  margin: 20px 0 30px 0;
+  box-shadow: 5px 2px 5px rgb(137, 137, 137);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .private__image {
+    position: absolute;
+    height: 250px;
+    width: 170px;
+    top: 10px;
+    left: 700px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .private__image {
+    height: 250px;
+    width: 170px;
+    position: absolute;
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .private__image {
+    height: 250px;
+    width: 170px;
+    position: static;
+  }
+}

@@ -1,0 +1,4 @@
+.page__skill {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.hobbies__image {
+  width: 300px;
+  height: 380px;
+  border-radius: 7%;
+  box-shadow: 5px 2px 5px rgb(137, 137, 137);
+  z-index: 2;
+}
+
+@media screen and (max-width: 380px) {
+  .hobbies__image {
+    width: 100px;
+    height: 130px;
+  }
+}
