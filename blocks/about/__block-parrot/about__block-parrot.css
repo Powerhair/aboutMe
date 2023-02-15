@@ -4,6 +4,7 @@
   position: relative;
   z-index: 1;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {
