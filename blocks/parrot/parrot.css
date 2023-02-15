@@ -23,3 +23,10 @@
     margin-top: 60px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .parrot {
+    margin-right: -40px;
+    margin-top: 60px;
+  }
+}
