@@ -1,0 +1,18 @@
+.education__link {
+  width: 150px;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  color: rgb(28, 28, 28);
+  text-align: center;
+  background-color: rgba(235, 230, 212, 0.8);
+  border: 2px solid rgba(222, 218, 206, 0.8);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.education__link:hover {
+  transition: 0.7s;
+  opacity: 0.4;
+}
